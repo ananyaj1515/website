@@ -6,7 +6,10 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import ExploreIcon from '@mui/icons-material/Explore';
 import CardMembershipIcon from '@mui/icons-material/CardMembership';
 import Logo from '../assets/logo.png';
-
+import Title from "../components/Title";
+import Connect from "../components/Connext";
+import Subtitle from "../components/Subtitle";
+import CustomInput from "../components/CustomInput";
 
 const cards = [
     {id: 1, Icon: AutoStoriesIcon, title: "Expert-led courses"},
@@ -18,12 +21,24 @@ const cards = [
 function Home() {
     return (
        <div>
-            <Navbar />
+            <Navbar/>
             <img src={Logo} alt="Compass Learn Logo" style={{ width: '200px', height: '150px' }} />
+            <Title title="Learning that guides you in the" coloredTitle="right direction" subtitle="We're building something special - a smarter way to learn, grow, and navigate your educational journey. School leaders & parents, stay tuned!!
+" />
             <CustomCountdown />
-            {cards.map(({id, Icon, title}) => (
-                <Card key={id} Icon={Icon} title={title} />
-            ))}
+            <Connect>
+                <Subtitle subtitle='Got thoughts on education? Love tech? Constantly asking "Why is this still done this way?"'/>
+                <Subtitle subtitle="Drop your email. Let's talk. No corporate jargon, no awkward networking. Just good conversations — and who knows what might happen next..."/>
+                <CustomInput />
+                <div style={{flexDirection: 'row'}}>
+                    {cards.map(({id, Icon, title}) => (
+                        <Card key={id} Icon={Icon} title={title} />
+                    ))}
+                </div>
+                
+            </Connect>
+            
+
        </div>
     )
 }
