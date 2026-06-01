@@ -7,17 +7,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 0.5rem;
-    margin: 1em;
+    margin-top: 2em;
+    margin-right: 1em;
+    transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.08);
 }
 
 .card-icon {
     font-size: 0.20em;
     color: #3867f3;
+    margin-right: 0.25em;
 }
 
 .card-title {
-    font-size: 0.60em;
-    font-weight: 700;
+    font-size: 0.55em;
+    font-weight: 600;
     color: #28282b;
 }

@@ -7,12 +7,13 @@
     background: rgba(248, 250, 270);
     color: #000000;
     font-size: 0.65em;
-    padding: 0.25em 1em;
-    font-weight: 600;
+    padding: 0.5em 1em;
+    font-weight: 500;
 }
 
 .email-input {
     border: 1px solid #e6ebf2;
+    width: 20em;
     border-radius: 5px;
     display: inline-flex;
     flex: auto;
@@ -20,7 +21,7 @@
     align-items: center;
     background: rgba(248, 250, 270);
     color: #000000;
-    padding: 0.25em 1em;
+    padding: 0.5em 1em;
     margin-right: 0.5em;
     font-size: 0.65em;
 }
@@ -30,5 +31,5 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
+    margin-top: 1em;
 }

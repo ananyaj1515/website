@@ -10,6 +10,7 @@ import Title from "../components/Title";
 import Connect from "../components/Connext";
 import Subtitle from "../components/Subtitle";
 import CustomInput from "../components/CustomInput";
+import SocialFooter from "../components/SocialFooter";
 
 const cards = [
     {id: 1, Icon: AutoStoriesIcon, title: "Expert-led courses"},
@@ -35,10 +36,9 @@ function Home() {
                         <Card key={id} Icon={Icon} title={title} />
                     ))}
                 </div>
-                
             </Connect>
+            <SocialFooter />
             
-
        </div>
     )
 }
