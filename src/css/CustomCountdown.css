@@ -1,0 +1,35 @@
+.countdown-container {
+    display: flex;
+    gap: 1.25em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown-box {
+    width: 4em;
+    height: 4em;
+    border: 1px solid #e6ebf2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(248, 250, 270);
+}
+
+.countdown-box:hover {
+   background: rgba(248, 250, 270, 0.5);
+}
+
+.countdown-value {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1f4acc;
+    line-height: 1
+}
+
+.countdown-label {
+    font-size: 0.60em;
+    font-weight: 500;
+    color: #8c97ab
+}
