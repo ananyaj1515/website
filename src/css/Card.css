@@ -1,0 +1,23 @@
+.card-container {
+    display: inline-flex;
+    padding: 0.1em 0.8em;
+    background: rgb(248, 250, 270);
+    border: 1px solid #e6ebf2;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.25rem;
+    margin: 0.5em;
+}
+
+.card-icon {
+    font-size: 0.40em;
+    color: #3867f3;
+}
+
+.card-title {
+    font-size: 0.60em;
+    font-weight: 700;
+    color: #28282b;
+}
