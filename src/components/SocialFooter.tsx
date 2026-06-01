@@ -1,7 +1,6 @@
 import type { ComponentType } from 'react'
 import { FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from 'react-icons/fa6'
 import '../css/SocialFooter.css'
-import Subtitle from './Subtitle'
 
 type SocialLink = {
   name: string
