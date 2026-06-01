@@ -16,7 +16,7 @@ const cards = [
     {id: 1, Icon: AutoStoriesIcon, title: "Expert-led courses"},
     {id: 2, Icon: BarChartIcon, title: "Track progress"},
     {id: 3, Icon: ExploreIcon, title: "Personalised paths"},
-    {id: 4, Icon: CardMembershipIcon, title: "Certificates"}
+    {id: 4, Icon: CardMembershipIcon, title: "Professional development"}
 ]
 
 function Home() {
