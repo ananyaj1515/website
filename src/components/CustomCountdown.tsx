@@ -1,7 +1,7 @@
 import Countdown from 'react-countdown';
 import '../css/CustomCountdown.css';
 
-function CountdownBox({label, value}) {
+function CountdownBox({label, value}: {label: string; value: any}) {
     return (
         <div className="countdown-box">
             <div className="countdown-value">
@@ -14,7 +14,7 @@ function CountdownBox({label, value}) {
     );
 }
 
-function renderer({days, hours, minutes, seconds, completed}) {
+function renderer({days, hours, minutes, seconds, completed}: {days: number; hours: number; minutes: number; seconds: number; completed: boolean}) {
     if (completed) {
         return <h1>Launch Time</h1>
     }

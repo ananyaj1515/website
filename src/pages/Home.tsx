@@ -1,4 +1,4 @@
-import CustomCountdown from '../components/CustomCountdown';
+import CustomCountdown from "../components/CustomCountdown";
 
 function Home() {
     return (
