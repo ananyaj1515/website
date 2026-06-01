@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Navbar from "../components/Navbar";
 import CustomCountdown from "../components/CustomCountdown";
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import BarChartIcon from '@mui/icons-material/BarChart';
@@ -15,6 +16,7 @@ const cards = [
 function Home() {
     return (
        <div>
+            <Navbar />
             <h1>Welcome to Compass Learn!</h1>
             <CustomCountdown />
             {cards.map(({id, Icon, title}) => (
