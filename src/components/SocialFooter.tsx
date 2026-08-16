@@ -9,10 +9,8 @@ type SocialLink = {
 }
 
 const socialLinks: SocialLink[] = [
-  { name: 'Instagram', url: 'https://www.instagram.com', Icon: FaInstagram },
-  { name: 'LinkedIn', url: 'https://www.linkedin.com', Icon: FaLinkedinIn },
-  { name: 'X', url: 'https://x.com', Icon: FaXTwitter },
-  { name: 'YouTube', url: 'https://www.youtube.com', Icon: FaYoutube }
+  { name: 'Instagram', url: 'https://www.instagram.com/compasslrn', Icon: FaInstagram },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/company/compass-learn', Icon: FaLinkedinIn },
 ]
 
 type SocialHandleProps = {
@@ -40,13 +38,23 @@ function SocialHandle({ url, label, Icon }: SocialHandleProps) {
 export default function SocialFooter() {
   return (
     <footer className="social-footer">
+      <div className="footer-details">
+        <div>
+          <h3>Compasslrn Private Limited</h3>
+          <p>CIN : U85499HR2026PTC147190</p>
+        </div>
+        <div>
+          <p>Address: M3M Merlin Sector 65 Gurgaon</p>
+          <a href="mailto:chairmanoffice@compasslrn.com">chairmanoffice@compasslrn.com</a>
+        </div>
+      </div>
       <div className="social-list">
         {socialLinks.map(({ name, url, Icon }) => (
           <SocialHandle key={name} url={url} label={name} Icon={Icon} />
         ))}
       </div>
       <p>Connect with us on social media</p>
-      <p> © 2026 Compass Learn. All rights reserved.</p>
+      <p>© 2026 Compass Learn. All rights reserved.</p>
     </footer>
   )
 }

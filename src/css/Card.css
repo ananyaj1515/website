@@ -1,29 +1,31 @@
 .card-container {
     display: inline-flex;
-    padding: 0.3em 0.8em;
-    background: rgb(248, 250, 270);
-    border: 1px solid #e6ebf2;
+    padding: 0.45em 0.9em;
+    background: #ffffff;
+    border: 1px solid #dfe7f5;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 2em;
+    margin-top: 0.5em;
     margin-right: 1em;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 18px rgba(13, 44, 108, 0.04);
 }
 
 .card-container:hover {
     transform: scale(1.08);
+    box-shadow: 0 14px 24px rgba(228, 18, 31, 0.08);
 }
 
 .card-icon {
     font-size: 0.20em;
-    color: #3867f3;
+    color: #E4121F;
     margin-right: 0.25em;
 }
 
 .card-title {
-    font-size: 0.55em;
+    font-size: 0.8em;
     font-weight: 600;
-    color: #28282b;
+    color: #0D2C6C;
 }

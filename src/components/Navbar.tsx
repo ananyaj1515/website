@@ -2,9 +2,9 @@ import "../css/Navbar.css";
 
 function Navbar() {
     return (
-        <div className="navbar">
-
-        </div>
+        <header className="navbar">
+            
+        </header>
     )
 }
 

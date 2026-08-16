@@ -23,14 +23,14 @@ function Home() {
     return (
        <div>
             <Navbar/>
-            <img src={Logo} alt="Compass Learn Logo" style={{ width: '200px', height: '150px' }} />
-            <Title title="Learning that guides you in the" coloredTitle="right direction" subtitle="We're building something special - a smarter way to learn, grow, and navigate your educational journey. School leaders & parents, stay tuned!!
-" />
+            <img className="home-logo" src={Logo} alt="Compass Learn Logo" />
+            <p className="hero-intro">We&apos;re building something special: a smarter way to learn, grow, and navigate your educational journey</p>
+            <Title title="Watch this space for some" coloredTitle="exciting innovation" subtitle=""/>
             <CustomCountdown />
             <Connect>
                 <Subtitle subtitle='Got thoughts on education? Love tech? Constantly asking "Why is this still done this way?"'/>
-                <Subtitle subtitle="Drop your email. Let's talk. No corporate jargon, no awkward networking. Just good conversations — and who knows what might happen next..."/>
-                <CustomInput />
+                <Subtitle subtitle="Drop your email. Let's talk. No corporate jargon, no awkward networking. Just good conversations, and who knows what might happen next..."/>
+                <CustomInput placeholder="Enter your email" />
                 <div style={{flexDirection: 'row'}}>
                     {cards.map(({id, Icon, title}) => (
                         <Card key={id} Icon={Icon} title={title} />

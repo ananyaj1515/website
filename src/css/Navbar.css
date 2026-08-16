@@ -1,5 +1,7 @@
 .navbar {
     width: 100%;
-    background: #1f4acc;
-    height:25px;
+    background: #E4121F;
+    box-sizing: border-box;
+    padding: 0.9rem 1.5rem;
+    border-bottom: 3px solid #173d89;
 }

@@ -31,7 +31,7 @@ function renderer({days, hours, minutes, seconds, completed}: {days: number; hou
 function CustomCountdown() {
     return (
         <>
-            <Countdown date={new Date('2026-08-01T00:00:00')} 
+            <Countdown date={new Date('2026-10-01T00:00:00')} 
                 renderer={renderer}
             />
         </>

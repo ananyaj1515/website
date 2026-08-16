@@ -3,35 +3,36 @@
     gap: 0.75rem;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .countdown-box {
-    width: 4em;
-    height: 4em;
-    border: 2px solid #e6ebf2;
+    width: 6.2em;
+    height: 6.2em;
+    border: 2px solid #dfe7f5;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(248, 250, 270);
-    /* box-shadow: 0 12px 28px rgba(15, 47, 140, 0.16); */
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(13, 44, 108, 0.05);
 }
 
 .countdown-box:hover {
-   background: rgba(248, 250, 270, 0.5);
-   
+   background: #f8faff;
 }
 
 .countdown-value {
-    font-size: 1.5em;
+    font-size: 2.1em;
     font-weight: 700;
-    color: #123fc7;
-    line-height: 1
+    color: #0D2C6C;
+    line-height: 1;
 }
 
 .countdown-label {
-    font-size: 0.60em;
-    font-weight: 500;
-    color: #8c97ab
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #E4121F;
 }
