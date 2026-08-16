@@ -1,5 +1,5 @@
 import type { ComponentType } from 'react'
-import { FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from 'react-icons/fa6'
+import { FaInstagram, FaLinkedinIn } from 'react-icons/fa6'
 import '../css/SocialFooter.css'
 
 type SocialLink = {
