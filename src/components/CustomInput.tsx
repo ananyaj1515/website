@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react';
+import { type FormEvent, useState } from 'react';
 import '../css/CustomInput.css';
 
 type CustomInputProps = {
